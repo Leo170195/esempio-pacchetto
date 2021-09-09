@@ -1,0 +1,23 @@
+{
+    "name": "aulab/esempio-pacchetto",
+    "authors": [
+        {
+            "name": "Leonardo",
+            "email": "leonardo.decandia@aulab.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aulab\\EsempioPacchetto\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aulab\\EsempioPacchetto\\EsempioPacchettoServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
