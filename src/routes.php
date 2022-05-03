@@ -8,5 +8,4 @@ Route::get('/prova', function(){
     echo 'benvenuti nel mio pacchetto';
 });
 
-
 Route::get('/controller', [EsempioController::class, 'prova']);
